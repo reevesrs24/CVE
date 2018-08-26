@@ -19,7 +19,7 @@
 Verification Steps:
 
 1. Connect to the D-Link DIR-615 router.
-2. Run the xss_upnp.py script with the -d switch to start the UPnP "Simple Search Discovery Process". 
+2. Run the [xss_upnp.py](https://github.com/reevesrs24/cve/blob/master/D-Link_DIR-615/xss_DHCP/xss_upnp.py) script with the -d switch to start the UPnP "Simple Search Discovery Process". 
    to retrieve the "upnp:rootdevice" uuid.
 3. Two results should be displayed to the terminal http:<span></span>//192.168.0.1:5431/igdevicedesc.xml and http:/<span></span>//192.168.0.1:54217/simplecfg.xml.
 4. Navigate to http:/<span></span>//192.168.0.1:5431/igdevicedesc.xml to retrieve the UPnP control url
