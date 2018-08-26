@@ -10,6 +10,9 @@
 
 **Vendor Homepage**: http://us.dlink.com/
 
+**Tested On** Linux 4.15.0-33-generic #36~16.04.1-Ubuntu x86_64
+
+**CVE** CVE-2018-15875
 
 ## Vulnerability detail ##
 
@@ -25,7 +28,7 @@ Verification Steps:
     ![alt text](screenshots/control_url.png "")
 3. Set the 'url' variable in the xss_upnp.py script to the control-url.
     - e.g. 'http://192.168.0.1:5431/control/WANIPConnection'
-4. Set the 'NewPortMappingDescription' field in the "add_port_mapping" function to an HTML where the attribute is javascript.
+4. Set the 'NewPortMappingDescription' field in the "add_port_mapping" function to an HTML element where the attribute is javascript.
     - i.e. "<img src="" onerror=alert("XSS") />" (The <script> tag caused the page to fail to load, but adding javascript to an attribute worked)
 5. Set the "NewInternalClient" field in the "add_port_mapping" function to the D-Link router's local IP address.
 6. Run the xss_upnp.py script with the -m switch to add the port mapping.

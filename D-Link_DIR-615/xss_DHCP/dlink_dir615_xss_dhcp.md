@@ -10,6 +10,9 @@
 
 **Vendor Homepage**: http://us.dlink.com/
 
+**Tested On** Linux 4.15.0-33-generic #36~16.04.1-Ubuntu x86_64
+
+**CVE** CVE-2018-1587
 
 ## Vulnerability detail ##
 
