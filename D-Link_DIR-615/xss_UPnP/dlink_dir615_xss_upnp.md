@@ -30,8 +30,7 @@ Verification Steps:
     - e.g. http:/<span></span>//192.168.0.1:5431/control/WANIPConnection
 4. Set the 'NewPortMappingDescription' field in the "add_port_mapping" function to an HTML element where the attribute is javascript.
     - e.g. "<img src="" onerror=alert("XSS") />" (The <script> tag caused the page to fail to load, but adding javascript to an attribute worked)
-5. Set the "NewInternalClient" field in the "add_port_mapping" function to the D-Link router's local IP address.
-6. Run the xss_upnp.py script with the -m switch to add the port mapping.
+5. Run the xss_upnp.py script with the -m switch to add the port mapping.
     - If successful the router should return an xml acknowledgement similar to this
       <?xml version="1.0"?><br/>
         <s:Envelope xmlns:s="http:/<span></span>//schemas.xmlsoap.org/soap/envelope/"><br/>
@@ -41,5 +40,5 @@ Verification Steps:
             </s:Body><br/>
         </s:Envelope>
         
-7. Navigate to the router's Advanced->UPnP page to verify the xss.
+6. Navigate to the router's Advanced->UPnP page to verify the xss.
     ![alt text](screenshots/xss_upnp.png "")
