@@ -36,7 +36,7 @@ Verification Steps:
         <s:Envelope xmlns:s="http:/<span></span>//schemas.xmlsoap.org/soap/envelope/"><br/>
             <s:Body><br/>
                 <u:AddPortMappingResponse xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1"><br/>
-                </u:AddPortMappingResponse>
+                </u:AddPortMappingResponse><br/>
             </s:Body><br/>
         </s:Envelope>
         
