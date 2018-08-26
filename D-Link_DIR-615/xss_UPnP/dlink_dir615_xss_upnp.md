@@ -34,12 +34,12 @@ Verification Steps:
 6. Run the xss_upnp.py script with the -m switch to add the port mapping.
     - If successful the router should return an xml acknowledgement similar to this
    
-      <?xml version="1.0"?>
-        <s:Envelope xmlns:s="http:/<span></span>//schemas.xmlsoap.org/soap/envelope/">
-            <s:Body>
-                <u:AddPortMappingResponse xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1">
+      <?xml version="1.0"?><br/>
+        <s:Envelope xmlns:s="http:/<span></span>//schemas.xmlsoap.org/soap/envelope/"><br/>
+            <s:Body><br/>
+                <u:AddPortMappingResponse xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1"><br/>
                 </u:AddPortMappingResponse>
-            </s:Body>
+            </s:Body><br/>
         </s:Envelope>
         
 7. Navigate to the router's Advanced->UPnP page to verify the xss.
