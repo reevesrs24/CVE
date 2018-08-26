@@ -1,8 +1,8 @@
 # D-Link DIR-615 XSS Via the UPnP Protocol #
 
-**Vendor** ：D-Link
+**Vendor**：D-Link
 
-**Product** : DIR-615
+**Product**: DIR-615
 
 **Version**: 20.07
 
@@ -10,9 +10,9 @@
 
 **Vendor Homepage**: http://us.dlink.com/
 
-**Tested On** Linux 4.15.0-33-generic #36~16.04.1-Ubuntu x86_64
+**Tested On**: Linux 4.15.0-33-generic #36~16.04.1-Ubuntu x86_64
 
-**CVE** CVE-2018-15875
+**CVE**: CVE-2018-15875
 
 ## Vulnerability detail ##
 
