@@ -18,7 +18,7 @@
 
 Verification Steps:
 
-1. In the [xss_dhcp.py](https://github.com/reevesrs24/cve/blob/master/D-Link_DIR-615/xss_DHCP/xss_dhcp.py)script set the 'interface' and 'mac' variable.
+1. In the [xss_dhcp.py](https://github.com/reevesrs24/cve/blob/master/D-Link_DIR-615/xss_DHCP/xss_dhcp.py) script set the 'interface' and 'mac' variable.
     - Set 'interface' to the network adapter's name
     - Set 'mac' to the network adapter's mac address
 2. Set the 'hostname' variable in the dhcp_request function to some arbitrary javascript
