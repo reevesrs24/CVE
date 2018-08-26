@@ -33,7 +33,6 @@ Verification Steps:
 5. Set the "NewInternalClient" field in the "add_port_mapping" function to the D-Link router's local IP address.
 6. Run the xss_upnp.py script with the -m switch to add the port mapping.
     - If successful the router should return an xml acknowledgement similar to this
-   
       <?xml version="1.0"?><br/>
         <s:Envelope xmlns:s="http:/<span></span>//schemas.xmlsoap.org/soap/envelope/"><br/>
             <s:Body><br/>
