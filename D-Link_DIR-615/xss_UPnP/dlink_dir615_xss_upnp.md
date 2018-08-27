@@ -28,7 +28,7 @@ Verification Steps:
     ![alt text](screenshots/control_url.png "")
 3. Set the 'url' variable in the xss_upnp.py script to the control-url.
     - e.g. http:/<span></span>//192.168.0.1:5431/control/WANIPConnection
-4. Set the 'NewPortMappingDescription' field in the "add_port_mapping" function to an HTML element where the attribute is javascript.
+4. Set the "NewPortMappingDescription" field in the "add_port_mapping" function to an HTML element where the attribute is javascript.
     - e.g. "<img src="" onerror=alert("XSS") />" (The <script> tag caused the page to fail to load, but adding javascript to an attribute worked)
 5. Run the xss_upnp.py script with the -m switch to add the port mapping.
     - If successful the router should return an xml acknowledgement similar to this
