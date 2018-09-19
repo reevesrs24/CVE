@@ -32,6 +32,7 @@ Verification Steps:
     - e.g. "<img src="" onerror=alert("XSS") />" (The <script> tag caused the page to fail to load, but adding javascript to an attribute worked)
 5. Run the xss_upnp.py script with the -m switch to add the port mapping.
     - If successful the router should return an xml acknowledgement similar to this
+   ```xml
       <?xml version="1.0"?><br/>
         <s:Envelope xmlns:s="http:/<span></span>//schemas.xmlsoap.org/soap/envelope/"><br/>
             <s:Body><br/>
@@ -39,6 +40,6 @@ Verification Steps:
                 </u:AddPortMappingResponse><br/>
             </s:Body><br/>
         </s:Envelope>
-        
+    ```
 6. Navigate to the router's Advanced->UPnP page to verify the xss.
     ![alt text](screenshots/xss_upnp.png "")
