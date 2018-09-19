@@ -22,7 +22,10 @@ Verification Steps:
     - Set 'interface' to the network adapter's name
     - Set 'mac' to the network adapter's mac address
 2. Set the 'hostname' variable in the dhcp_request function to some arbitrary javascript
-    - e.g. <script>alert('xss')</script>
+    - e.g.
+    ```javascript
+    <script>alert('xss')</script>
+    ```
 3. Set the 'siaddr' variable in the dhcp_request function to the D-Link router's local IP address
 4. Connect to the router which is undergoing the test
 5. Run the python script with **administrator privileges**
