@@ -80,4 +80,4 @@ move $a1, $a2
 5.  This ROP chain can be used to execute shellcode on the stack.  PoC shellcode '/bin/sh' written by Sanguine (https://www.exploit-db.com/exploits/35868)
 was used to test this (My shellcode game is weak). Below the [sh] process was executed. Although this process immediately terminates once gdb is exited.    
 ![alt text](screenshots/sh.png)
-6.  Much of this analysis was modeled after a great write up by Lyon Yang titled "Exploiting Buffer Overflows on MIPS Architectures".
+6.  Much of this analysis was modeled after a great write up by Lyon Yang titled "Exploiting Buffer Overflows on MIPS Architectures". (https://gsec.hitb.org/materials/sg2015/whitepapers/Lyon%20Yang%20-%20Advanced%20SOHO%20Router%20Exploitation.pdf)
