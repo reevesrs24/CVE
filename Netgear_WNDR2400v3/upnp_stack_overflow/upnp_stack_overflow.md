@@ -34,7 +34,7 @@
 ```
 3.  While the stack is executable it does however employ ASLR. 
 ![alt text](screenshots/memory_map.png)
-4. A ROP chain can be used to execute shellcode on the stack.  Several libraries such as libc.so.0, libnat.s and libcrypt.so.0 
+4. A ROP chain can be used to execute shellcode on the stack.  Several libraries such as libc.so.0, libnat.so and libcrypt.so.0 
 have static address spaces which can be used to chain ROP gadgets.
 ```
 ROP Gadget 1
