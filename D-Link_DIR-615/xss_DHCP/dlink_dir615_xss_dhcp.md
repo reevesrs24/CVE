@@ -10,8 +10,6 @@
 
 **Vendor Homepage**: http://us.dlink.com/
 
-**Tested On**: Linux 4.15.0-33-generic #36~16.04.1-Ubuntu x86_64
-
 **CVE**: [CVE-2018-15874](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15874)
 
 **NVD**: [CVE-2018-15874](https://nvd.nist.gov/vuln/detail/CVE-2018-15874)
