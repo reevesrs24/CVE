@@ -26,7 +26,7 @@
     # MAN - Required by HTTP Exension Framework, defines the scope (namespace) of the extension
     # MX - MAximum wait time in seconds
     # ST: Required search target, pre defined values
-    SSDP = arbitrary_string
+    SSDP = payload
 
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.settimeout(5)
