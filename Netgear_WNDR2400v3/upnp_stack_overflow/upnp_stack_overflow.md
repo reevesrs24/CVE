@@ -13,7 +13,6 @@
 **NVD**: Pending
 
 ## Vulnerability detail ##
-### A PoC script will be provided once the vendor has responded ###
 
 1. There exists a buffer overflow in the ssdp_http_method_check function in the upnpd binary.
 ![alt text](screenshots/ghidra_upnp.png)
