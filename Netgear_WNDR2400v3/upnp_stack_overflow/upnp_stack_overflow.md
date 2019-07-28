@@ -24,7 +24,7 @@
     # M-SEARCH - Method for search requests
     # HOST - Multicast channed and port reserved for SSDP
     # MAN - Required by HTTP Exension Framework, defines the scope (namespace) of the extension
-    # MX - MAximum wait time in seconds
+    # MX - Maximum wait time in seconds
     # ST: Required search target, pre defined values
     SSDP = arbitrary_string
 
