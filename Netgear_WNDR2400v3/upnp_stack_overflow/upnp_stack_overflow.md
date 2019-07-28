@@ -13,7 +13,7 @@
 **NVD**: Pending
 
 **PoC Script**: [netgear_upnp_poc.py](https://github.com/reevesrs24/CVE/blob/master/Netgear_WNDR2400v3/upnp_stack_overflow/netgear_upnp_poc.py)
-## Vulnerability detail ##
+## Vulnerability details ##
 
 1. There exists a stack-based buffer overflow in the ssdp_http_method_check function in the upnpd binary.
 ![alt text](screenshots/ghidra_upnp.png)
