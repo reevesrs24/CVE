@@ -6,16 +6,16 @@
 
 **Firmware Version**: V1.0.1.18_1.0.63
 
-**Vendor Homepage**: https://www.netgear.com/support/product/WNDR3400v3.aspx
+**Vendor Homepage**: https://www.netgear.com/default.aspx
 
 **CVE**: Pending
 
 **NVD**: Pending
 
 **PoC Script**: [netgear_upnp_poc.py](https://github.com/reevesrs24/CVE/blob/master/Netgear_WNDR2400v3/upnp_stack_overflow/netgear_upnp_poc.py)
-## Vulnerability details ##
+## Vulnerability detail ##
 
-1. There exists a stack-based buffer overflow in the ssdp_http_method_check function in the upnpd binary.
+1. There exists a buffer overflow in the ssdp_http_method_check function in the upnpd binary.
 ![alt text](screenshots/ghidra_upnp.png)
 
 2. Sending a crafted UPnP SSDP packet allows for the $ra register to be overwritten.
@@ -26,7 +26,7 @@
     # MAN - Required by HTTP Exension Framework, defines the scope (namespace) of the extension
     # MX - MAximum wait time in seconds
     # ST: Required search target, pre defined values
-    SSDP = payload
+    SSDP = arbitrary_string
 
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.settimeout(5)
