@@ -6,7 +6,7 @@
 
 **Firmware Version**: V1.0.1.18_1.0.63
 
-**Vendor Homepage**: https://www.netgear.com/default.aspx
+**Vendor Homepage**: https://www.netgear.com/support/product/WNDR3400v3.aspx
 
 **CVE**: Pending
 
