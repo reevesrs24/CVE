@@ -8,7 +8,7 @@
 
 **Vendor Homepage**: https://www.netgear.com/support/product/WNDR3400v3.aspx
 
-**CVE**: CVE-2019-14363
+**CVE**: [CVE-2019-14363](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14363)
 
 **NVD**: Pending
 
