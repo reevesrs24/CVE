@@ -4,7 +4,7 @@
 
 **Product**: N600 WiFi Dual Band Router (WNDR3400v3)
 
-**Firmware Version**: V1.0.1.18_1.0.63
+**Firmware Version**: V1.0.1.18 - V1.0.1.24
 
 **Vendor Homepage**: https://www.netgear.com/support/product/WNDR3400v3.aspx
 
