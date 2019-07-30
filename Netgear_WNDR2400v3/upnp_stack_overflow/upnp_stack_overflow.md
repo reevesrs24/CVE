@@ -10,7 +10,7 @@
 
 **CVE**: [CVE-2019-14363](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14363)
 
-**NVD**: Pending
+**NVD**: [CVE-2019-14363](https://nvd.nist.gov/vuln/detail/CVE-2019-14363)
 
 **PoC Script**: [netgear_upnp_poc.py](https://github.com/reevesrs24/CVE/blob/master/Netgear_WNDR2400v3/upnp_stack_overflow/netgear_upnp_poc.py)
 ## Vulnerability details ##
